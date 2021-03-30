@@ -6,6 +6,15 @@
 }
 
 /* Icons */
+@font-face {
+    font-family: 'edoregular';
+    src: url('./fonts/edo font/edo-webfont.woff2') format('woff2'),
+         url('./fonts/edo font/edo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @font-face
 {
     font-family: 'slick';

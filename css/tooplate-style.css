@@ -93,13 +93,18 @@ footer a:link, footer a:visited {
 }
 
 .tm-site-title {
-  font-size: 3.6rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-family: 'edoregular';
+  font-family: edoregular;
 }
+/*added @font-face {
+    font-family: 'edoregular';
+    to slick-theme.css file
+*/
+
 
 .tm-site-subtitle {
-  color: #cdffd0;
+  /*color: #cdffd0;*/
   font-size: 1.4rem;
   font-weight: 300;
 }
@@ -594,6 +599,7 @@ figure.effect-goliath:hover p {
 @media (max-width: 767px) {
   .tm-site-title {
     font-size: 3rem;
+    
   }
   .tm-top-container {
     flex-direction: column-reverse;
