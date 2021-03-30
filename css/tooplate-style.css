@@ -95,6 +95,7 @@ footer a:link, footer a:visited {
 .tm-site-title {
   font-size: 3.6rem;
   text-transform: uppercase;
+  font-family: 'edoregular';
 }
 
 .tm-site-subtitle {
